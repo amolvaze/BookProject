@@ -1,0 +1,75 @@
+* { padding:0; margin: 0; }
+a { text-decoration: none; }
+
+.logotitle{color: white; margin-left:10px; text-align:left-side; }
+
+.container { width: 700 px; margin-left:auto; margin-right:auto; background-color: #EDE8EA;  }
+
+.header { background-color: #F25581; height:100px; }
+
+ #results{ border: 1 px solid black; background: white; margin-top: 150px;  margin-left:auto; margin-right:auto; padding: 10px;  }
+ 
+  /*  .navigation {background-color: #B36314; width: 150 px; text-decoration: none; height: 48px; } */
+
+ .navigation {background-color:white; width: 200 px; text-decoration: none; height: 60px; margin-top:-1px; border: 1 px solid black; }
+  
+.navigation ul { list-style-type: none; padding-top:14px; padding-left: 15px; background-color:pink; height:38px; padding-top:22px;  }
+
+
+.navigation li { display: inline; margin-left: 50 px; margin-right: 50px;  }
+
+
+.navigation li a { color: white; font-weight:bold; font-family: Verdana; font-size: 15px;  }
+
+.navigation li a:hover { color: #ED4F11;}
+
+.welcome {float: left; width: 250px; height: 180px; background-color: #ccc; padding-left: 50px;  margin-left: 100px; }
+
+.welcometxt{ color: pink; margin-top: 10px; font-weight:bold; }
+
+.footer { clear : left; background-color : gray; margin-top: 400px;  height: 72px;  text-align: center; text-decoration: none; color: white; padding-top: 8px; }
+
+.footer a { margin-top: 15px; color: white; font-size: 8 px; text-decoration: none; }
+
+.footer a:hover { color: #ED4F11; text-decoration: underline; }
+
+.txt{ text-align: left; color: white; }
+
+.decision li { list-style:none;  display:inline;  padding: 30px; color: pink; font-weight:bold; }
+
+.decision > li:hover{color : white; cursor:pointer; text-decoration:underline; }
+
+#dialog{ background:#ccc; width: 275px; height:175px; padding: 5px; border: 1 px solid black; margin-left:auto; margin-right:auto;  }
+
+#myform{ background:#ccc; padding:3px; border: 1 px solid black; }
+
+#title{ margin-left:26px; width: 175px; }
+
+#author{ margin-left:12px; width: 175px; }
+
+#shipping{margin-left:1px; width: 175px;}
+
+#yes{ height: 30px; width: 50px; cursor:pointer;  }
+
+#submitbtn{ height: 30px;
+    margin-left: 116px;
+    width: 50px; cursor:pointer; }
+
+#close{   height: 30px;
+    margin-left: 120px;
+    width: 50px;} 
+	
+	
+	
+	table, th , td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 5px;
+	margin-left:480px; 
+}
+table tr:nth-child(odd) {
+    background-color: #f1f1f1;
+}
+table tr:nth-child(even) {
+    background-color: #ffffff;
+}
